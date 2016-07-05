@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Barcode-Scanner-iOS_Example' do
+  pod 'Barcode-Scanner-iOS', :path => '../'
+
+  target 'Barcode-Scanner-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
