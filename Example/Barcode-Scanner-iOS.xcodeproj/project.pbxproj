@@ -436,6 +436,7 @@
 /* Begin XCBuildConfiguration section */
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B054325F1EF9AB0BFDA12053 /* Pods-Barcode-Scanner-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -512,13 +513,13 @@
 			baseConfigurationReference = B054325F1EF9AB0BFDA12053 /* Pods-Barcode-Scanner-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barcode-Scanner-iOS/Barcode-Scanner-iOS-Prefix.pch";
 				INFOPLIST_FILE = "Barcode-Scanner-iOS/Barcode-Scanner-iOS-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avira.phantom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,20 +529,20 @@
 			baseConfigurationReference = 1ED99D296C412FE55A532D4C /* Pods-Barcode-Scanner-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barcode-Scanner-iOS/Barcode-Scanner-iOS-Prefix.pch";
 				INFOPLIST_FILE = "Barcode-Scanner-iOS/Barcode-Scanner-iOS-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avira.phantom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F24B586FC269515CC6D1627 /* Pods-Barcode-Scanner-iOS_Tests.debug.xcconfig */;
+			baseConfigurationReference = B054325F1EF9AB0BFDA12053 /* Pods-Barcode-Scanner-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +566,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DC4B82C8AB56CB8E307A5F /* Pods-Barcode-Scanner-iOS_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

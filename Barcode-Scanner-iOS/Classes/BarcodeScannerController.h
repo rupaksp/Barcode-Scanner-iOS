@@ -18,5 +18,5 @@
 @protocol BarcodeScannerControllerDelegate <NSObject>
 
 @optional
-- (void) scanViewController:(BarcodeScannerController *)scannerController didSuccessfullyScan:(NSString *) aScannedValue;
+- (void)scanViewController:(BarcodeScannerController*)scannerController didSuccessfullyScan:(NSDictionary*)detectedValue;
 @end
