@@ -22,7 +22,7 @@ pod "Barcode-Scanner-iOS"
 
 ## Author
 
-Rupak Parikh, rupak.parikh@avira.com
+Rupak Parikh, rupak.sp@gmail.com
 
 ## License
 
