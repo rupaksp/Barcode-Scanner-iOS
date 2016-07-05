@@ -1,0 +1,6 @@
+framework module Barcode_Scanner_iOS {
+  umbrella header "Barcode-Scanner-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Barcode-Scanner-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of Barcode-Scanner-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Barcode-Scanner-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rupak Parikh": "rupak.parikh@avira.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Barcode-Scanner-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Barcode-Scanner-iOS/Classes/**/*"
+}
